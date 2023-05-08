@@ -10,10 +10,8 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
     "@ckeditor/ckeditor5-markdown-gfm": "^37.0.1",
     "@ckeditor/ckeditor5-table": "^37.0.1",
-    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
     "@strapi/plugin-i18n": "4.9.0",
     "@strapi/plugin-users-permissions": "4.9.0",
     "@strapi/strapi": "4.9.0",
