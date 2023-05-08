@@ -161,7 +161,7 @@ module.exports = () => {
               'toggleTableCaption'
             ]
           },
-          // https://ckeditor.com/docs/ckeditor5/latest/features/headings.html
+         
           heading: {
             options: [
               { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
@@ -171,8 +171,7 @@ module.exports = () => {
               { model: 'heading4', view: 'h4', title: 'Heading 4', class: 'ck-heading_heading4' },
             ]
           },
-          // https://ckeditor.com/docs/ckeditor5/latest/features/general-html-support.html
-          // Regular expressions (/.*/  /^(p|h[2-4])$/' etc) for htmlSupport does not allowed in this config
+
           htmlSupport: {
             allow: [
                 {
